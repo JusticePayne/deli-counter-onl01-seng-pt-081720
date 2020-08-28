@@ -40,7 +40,4 @@ def now_serving(array)
   else array = empty? == false
     puts "You are #{array.index} in line!"
   end
-end  
-
-
-
+end
