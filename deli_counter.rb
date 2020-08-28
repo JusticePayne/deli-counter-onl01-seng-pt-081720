@@ -35,9 +35,9 @@ def take_a_number(array, name)
 end
 
 def now_serving(array)
-  if array = empty? == true
+  if array.empty? == true
     puts "There is nobody currently in line!"
-  else array = empty? == false
+  else array.empty? == false
     puts "You are #{array.index} in line!"
   end
 end
