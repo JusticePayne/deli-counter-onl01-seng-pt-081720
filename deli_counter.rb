@@ -20,8 +20,8 @@ def line(array)
   else
     message = "The line is currently: "
 
-  array.each_with_index do |value, index|
-    message += "#{index.to_i+ 1}. #{value}"
+   array.each_with_index do |value, index|
+     message += " #{index.to_i+1}. #{value}"
   end
   puts "#{message}"
   end
