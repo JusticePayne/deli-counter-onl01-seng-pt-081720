@@ -5,10 +5,10 @@
 # def take_a_number (array & name)
 # puts name & position (1-3) in line
 
-# def now_serving 
+# def now_serving
 # if line == 0
 # puts "There is nobody waiting to be served!"
-# elsif 
+# elsif
 # puts the next person in line
 # line.shift that person
 
